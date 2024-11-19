@@ -101,10 +101,22 @@
     .more-cards {
         padding-left: 4%;
     }
+
+    .short-overview {
+        display: none;
+    }
 }
 
 @media (max-width: 500px) {
     .caption-img {
+        display: none;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .short-overview {
         display: none;
     }
 
@@ -117,4 +129,9 @@
         gap: 5px;
         font-size: 10px;
     }
+
+    .btn-play {
+        font-size: large;
+    }
+    
 }

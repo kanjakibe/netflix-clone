@@ -59,14 +59,14 @@ const Home = () => {
           <div className="hero-caption">
             {/* <img src={hero_title} alt="" className='caption-img' /> */}
             <h1>{randomTitle}</h1>
-            <p>{shortOverview}</p>
+            <p className='short-overview'>{shortOverview}</p>
             <div className="hero-btns">
               
               <Link to={`/player/${randomId}`} className="card">
                 <button className='btn'><img src={play_icon} alt="" />Play</button>
               </Link> 
               
-              <button className='btn dark-btn'><img src={info_icon} alt="" />More Info</button>
+              <button className='btn dark-btn btn-info'><img src={info_icon} alt="" />More Info</button>
             </div>
             <TitleCards />
           </div>
