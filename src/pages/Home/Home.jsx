@@ -17,7 +17,7 @@ const Home = () => {
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzZjQxNmY1YTJkYzYzMzk2ZjM4YzE4MmQ0YWFkMDcyOSIsIm5iZiI6MTczMTc2MDE2My40MTA5NTg1LCJzdWIiOiI2NzMzNDU5NjE2MjM4NWI2MjM0ODViYmYiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.68yzVL5ekt44sAnlo7nG8LLXlhFdVWulN4cKNPw6wQM'
+      Authorization: import.meta.env.VITE_FIREBASE_BEARER_TOKEN,
     }
   };
 
